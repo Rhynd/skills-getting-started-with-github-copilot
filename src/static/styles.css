@@ -102,6 +102,38 @@ section h3 {
   margin-right: 5px;
 }
 
+.participant-info {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.participant-info h5 {
+  margin-bottom: 10px;
+  color: #1a237e;
+  font-size: 16px;
+}
+
+.participant-info ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #555;
+}
+
+.participant-info ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.participant-info ul li::before {
+  content: "👤 ";
+  color: #0066cc;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
